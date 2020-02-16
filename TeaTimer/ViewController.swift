@@ -13,9 +13,9 @@ import AVFoundation
 class ViewController: UIViewController {
 
  var player: AVAudioPlayer?
-    
+   //This timeing is almost not sure
     var teaTime = ["Light": 60, "Medium": 150, "Strong": 300]
-       
+    
       var timer = Timer()
       var totalTime = 0
       var secondPassed = 0
